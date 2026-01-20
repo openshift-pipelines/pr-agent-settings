@@ -1,37 +1,11 @@
-[pr_implement]
-allow_agent_implementation=true
-
-[config]
-new_diff_format=true
-new_diff_format_line_numbers=true
-new_diff_format_add_external_references=true
-
+[github_app]
+pr_commands = [
+    "/improve"
+]
 
 [best_practices]
-enable_global_best_practices = true
-organization_name="Qodo"
+enable_global_best_practices = true #
 
-[linear]
-linear_base_url = "https://linear.app/qodo"
-
-# TODO: Enabling this feature requires updating the E2E test suite accordingly
-# [github_app]
-# pr_commands = [
-#     "/describe --pr_description.final_update_message=false",
-#     "/compliance",
-#     "/improve",
-#     "/agentic_review"
-# ]
-
-# handle_push_trigger = true
-# push_commands = [
-#     "/describe",
-#     "/compliance --update_compliance=true",
-#     "/improve",
-#     "/agentic_review"
-# ]
-
-[review_agent]
-enabled = true
-publish_output = true
-enable_database_persistence = true
+[auto_best_practices]
+enable_auto_best_practices = true #
+utilize_auto_best_practices = true
