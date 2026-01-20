@@ -1,11 +1,4 @@
-[github_app]
-pr_commands = [
-    "/improve"
-]
-
-[best_practices]
-enable_global_best_practices = true #
-
-[auto_best_practices]
-enable_auto_best_practices = true #
-utilize_auto_best_practices = true
+[github_action_config]
+auto_review = true
+auto_describe = false
+auto_improve = false
