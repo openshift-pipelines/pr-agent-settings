@@ -1,5 +1,5 @@
 [github_app]
-pr_commands = [ "/review", "/test" ]
+pr_commands = [ "/review" ]
 
 [pr_reviewer]
 enable_review_labels_security = true
