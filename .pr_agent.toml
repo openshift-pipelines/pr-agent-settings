@@ -7,7 +7,6 @@ enable_chat_in_code_suggestions=false
 enable_chat_in_code_suggestions = false
 enable_summary=false
 enable_help_text=false
-enable_secondary_review=true
 
 [pr_description]
 publish_description_as_comment = true
