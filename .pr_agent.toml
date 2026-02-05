@@ -1,18 +1,9 @@
+[config]
+command_prefix = "/q"
+
 [github_app]
-pr_commands = [ "/review" ]
+pr_commands = [ "/review", "/generate_labels" ]
 
 [pr_reviewer]
 enable_review_labels_security = true
-enable_chat_in_code_suggestions=false
-enable_chat_in_code_suggestions = false
-enable_summary=false
-enable_help_text=false
-
-[pr_description]
-publish_description_as_comment = true
-
-[pr_code_suggestions]
-commitable_code_suggestions = true
-
-[pr_test]
-num_tests = 0
+enable_review_labels_effort = false
