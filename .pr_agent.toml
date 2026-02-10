@@ -7,3 +7,4 @@ pr_commands = [ "/review", "/generate_labels" ]
 [pr_reviewer]
 enable_review_labels_security = true
 enable_review_labels_effort = false
+enable_chat_in_code_suggestions=false
